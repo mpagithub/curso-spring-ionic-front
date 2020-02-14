@@ -15,7 +15,10 @@
         <ion-input type="password"></ion-input>
     </ion-item>
 
-    <button ion-button block>Entrar</button> <!--o block é para ele ocupar a página inteira -->
+    <button ion-button block (click)="login()">Entrar</button> 
+    <!-- o block é para ele ocupar a página inteira.  O parenteses no angular significa o binding
+         de eventos.(click)='login()'
+    --> 
     
    </form>
 
